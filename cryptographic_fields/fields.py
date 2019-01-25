@@ -100,6 +100,9 @@ class EncryptedCharField(EncryptedMixin, django.db.models.CharField):
 
     pass
 
+class EncryptedFileField(EncryptedMixin, django.db.models.FileField):
+
+    pass
 
 class EncryptedTextField(EncryptedMixin, django.db.models.TextField):
     pass
